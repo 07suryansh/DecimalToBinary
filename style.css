@@ -96,6 +96,11 @@ i:visited{
     background-color: rgb(123, 123, 123);
     transition: background-color 0s;
 }
+p{
+    margin: auto;
+    margin-top: -40px;
+    font-size: 30px;
+}
 span{
     display: flex;
     flex-direction: row;
