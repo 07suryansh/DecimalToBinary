@@ -1,8 +1,14 @@
-document.getElementById("btn").addEventListener("click", () => {
+document.getElementById("btn-convert").addEventListener("click", () => {
     let number = document.getElementById("inputnum").value;
     convertNumberToBinary(number);
     convertNumberToHexadecimal(number);
   });
+  document.getElementById("btn-clear").addEventListener("click",()=>{
+    document.getElementById("binary").setAttribute("value","");
+    document.getElementById("hexadecimal").setAttribute("value","");
+    document.getElementById("inputnum").value="";
+  })
+
   function convertNumberToBinary(number) {
     let binaryDigits = [];
     while (number > 0) {

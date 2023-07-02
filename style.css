@@ -54,9 +54,10 @@ button{
     border-radius: 40px;
     width: 60%;
     cursor: pointer;
-    margin: 24px auto;
+    margin: auto auto;
     box-shadow: 3px 3px 0px black;
     background-color: yellow;
+    font-size: large;
 }
 .info{
     display: flex;
@@ -75,6 +76,7 @@ input{
     margin: 6px;
     text-align: center;
     font-family: "poppins";
+    font-size: large;
 }
 h1,h3{
     font-weight: 500;
@@ -82,3 +84,23 @@ h1,h3{
 button:hover{
     box-shadow: 0px 0px 0px black;
 }
+
+@media screen and (max-width: 600px) {
+    input{
+        margin: 4px;
+        padding: 6px;
+    }
+    .info{
+        width: 80%;
+    }
+    #btn-convert{
+        margin: auto;
+        margin-top: 24px;
+        padding: 6px;
+    }
+    #btn-clear{
+        margin: 8px auto;
+        padding: 6px;
+    }
+  }
+  
