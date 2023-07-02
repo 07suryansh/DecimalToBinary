@@ -88,7 +88,7 @@ button:hover{
 @media screen and (max-width: 600px) {
     input{
         margin: 4px;
-        padding: 8px;
+        padding: 10px;
     }
     .info{
         width: 80%;
