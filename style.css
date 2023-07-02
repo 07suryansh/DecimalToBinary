@@ -134,5 +134,8 @@ span{
         position: absolute;
         margin-left: 360px;
     }
+    i:hover{
+        background-color: none;
+    }
   }
   
