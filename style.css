@@ -44,9 +44,10 @@ button{
     width: 60%;
     cursor: pointer;
     margin: auto auto;
-    box-shadow: 3px 3px 0px black;
+    box-shadow: 0px 3px 0px black;
     background-color: yellow;
     font-size: large;
+    font-weight: 600;
 }
 .info{
     display: flex;
@@ -73,7 +74,34 @@ h1,h3{
 button:hover{
     box-shadow: 0px 0px 0px black;
 }
-
+.ip1,.ip2{
+    width: 100%;
+}
+i{
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transform: translateX(-100%);
+    transition: background-color 0.2s;
+    position: absolute;
+    margin-left: 470px;
+}
+i:hover{
+    background-color: rgb(193, 191, 191);
+}
+i:active{
+    background-color: rgb(106, 106, 106);
+    transition: background-color 0s;
+}
+span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly
+}
 @media screen and (max-width: 600px) {
     input{
         margin: 4px;
@@ -93,6 +121,18 @@ button:hover{
     }
     .top{
         height: 10vh;
+    }
+    i{
+        cursor: pointer;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        transform: translateX(-100%);
+        transition: background-color 0.2s;
+        position: absolute;
+        margin-left: 360px;
     }
   }
   
