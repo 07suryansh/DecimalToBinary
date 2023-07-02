@@ -135,12 +135,20 @@ span{
         align-items: center;
         padding: 20px;
         transform: translateX(-100%);
-        transition: background-color 0.2s;
+        transition: background-color 0s;
         position: absolute;
         margin-left: 360px;
     }
     i:hover{
-        background-color: none;
+        background-color:transparent;
+    }
+    i:active{
+        background-color: grey;
+    }
+    p{
+        margin: auto;
+        margin-top: -40px;
+        font-size: 25px;
     }
   }
   
