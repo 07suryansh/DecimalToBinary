@@ -111,7 +111,7 @@ span{
 @media screen and (max-width: 600px) {
     input{
         margin: 4px;
-        padding: 10px;
+        padding: 12px;
     }
     .info{
         width: 80%;
@@ -119,11 +119,11 @@ span{
     #btn-convert{
         margin: auto;
         margin-top: 24px;
-        padding: 6px;
+        padding: 8px;
     }
     #btn-clear{
         margin: 8px auto;
-        padding: 6px;
+        padding: 8px;
     }
     .top{
         height: 10vh;
