@@ -92,7 +92,7 @@ i{
 i:hover{
     background-color: rgb(193, 191, 191);
 }
-i:active{
+i:visited{
     background-color: rgb(123, 123, 123);
     transition: background-color 0s;
 }
