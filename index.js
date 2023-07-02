@@ -9,6 +9,25 @@ document.getElementById("btn-convert").addEventListener("click", () => {
     document.getElementById("inputnum").value="";
   })
 
+  let copyIcon1 = document.getElementById("copyIcon1");
+  copyIcon1.addEventListener("click", function() {
+    navigator.clipboard.writeText(document.getElementById("binary").value);
+    let originalValue=document.getElementById("binary").value;
+    document.getElementById("binary").setAttribute("value","copied");
+        setTimeout(function() {
+          document.getElementById("binary").value = originalValue;
+        }, 500);
+  });
+  let copyIcon2 = document.getElementById("copyIcon2");
+  copyIcon2.addEventListener("click", function() {
+    navigator.clipboard.writeText(document.getElementById("hexadecimal").value);
+    let originalValue=document.getElementById("hexadecimal").value;
+    document.getElementById("hexadecimal").setAttribute("value","copied");
+        setTimeout(function() {
+          document.getElementById("hexadecimal").value = originalValue;
+        }, 500);
+  });
+
   function convertNumberToBinary(number) {
     let binaryDigits = [];
     while (number > 0) {
