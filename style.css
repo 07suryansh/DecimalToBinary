@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(82, 213, 213);
     display: flex;
     flex-direction: column;
     align-items:center;
     justify-content:space-between;
     padding: 0;
     margin: 0;
+    font-family: "poppins";
 }
 .container {
     display: flex;
@@ -25,15 +25,16 @@ body{
     padding: 4px ;
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 .middle{
-    background-color: brown;
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-items: center;
     height: 90vh;
     width: 100%;
     margin: 0;
+
 }
 .bottom{
     background-color: blueviolet;
@@ -44,7 +45,40 @@ body{
     padding: 4px ;
     display: flex;
     justify-content: space-around;
+    color: white;
 }
-span{
-    vertical-align: middle;
+button{
+    font-family: "poppins";
+    border: 2px solid black;
+    padding: 14px;
+    border-radius: 40px;
+    width: 60%;
+    cursor: pointer;
+    margin: 24px auto;
+    box-shadow: 3px 3px 0px black;
+    background-color: yellow;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 10px;
+    width: 30%;
+}
+input{
+    border: 2px solid grey;
+    border-radius: 40px;
+    padding: 14px;
+    margin: 6px;
+    text-align: center;
+    font-family: "poppins";
+}
+h1,h3{
+    font-weight: 500;
+}
+button:hover{
+    box-shadow: 0px 0px 0px black;
 }
