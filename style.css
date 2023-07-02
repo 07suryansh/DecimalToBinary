@@ -67,6 +67,7 @@ input{
     text-align: center;
     font-family: "poppins";
     font-size: large;
+    background-color: rgb(234, 234, 234);
 }
 h1,h3{
     font-weight: 500;
